@@ -13,12 +13,12 @@ It handles things such as:
 - Hiding the keyboard if the user taps outside of the textfield
 - Moving the view upwards if the keyboard will hide the selected textfield
 
-###### How to implement this helper
+**How to implement this helper**
 
 Using this helper is very simple.
 
-1. Copy and paste the _ _KeyboardHandlingViewController.swift_ _ file into your project directory
-2. Create a new class for your view controller and make it inherit the _ _KeyboardHandlingViewController_ _ class as such:
+1. Copy and paste the _KeyboardHandlingViewController.swift_ file into your project directory
+2. Create a new class for your view controller and make it inherit the _KeyboardHandlingViewController_ class as such:
 
 ```
 class MyViewController: KeyboardHandlingViewController {
